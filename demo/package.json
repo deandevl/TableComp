@@ -1,0 +1,30 @@
+{
+  "name": "tablecompdemo",
+  "version": "1.0.0",
+  "description": "A demo of TableComp.",
+  "main": "app.js",
+  "scripts": {
+    "build": "parcel build index.html"
+  },
+  "repository": "git+https://github.com/deandevl/TableComp.git",
+  "keywords": [
+    "Vue.js",
+    "TableComp"
+  ],
+  "author": "Rick Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deandevl/TableComp/issues"
+  },
+  "homepage": "https://github.com/deandevl/TableComp#readme",
+  "dependencies": {
+    "tablecomp": "git+https://github.com/deandevl/TableComp.git",
+    "vue": "^2.5.22"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

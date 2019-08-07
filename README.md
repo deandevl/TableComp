@@ -8,7 +8,7 @@
 -  modify an individual cell's classList
 -  responsive event notification to the component parent on row/cell clicks
 
-**table-comp** can be installed via [npm install](https://docs.npmjs.com/cli/install.html "npm install") with the included `package.json` file.  **table-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework.  Three [webpack](https://webpack.js.org/concepts/) npm scripts are included for building  development, production, or hot recompile/execute of the demo.  `build-dev` and `build-prod` scripts produce  a `dist` folder containing the `index.html`.  The size of the bundle using `build-prod` is 14 KiB with a CDN for incorporating the Vue framework.
+ **table-comp** can be installed via with the included `package.json` file for a local installation via the [npm install](https://docs.npmjs.com/cli/install.html "npm install") command.  **table-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework.  A demo folder is provided that used [Parcel](https://parceljs.org/) together with its associated `package.json` file to bundle together  **table-comp** along with its [vue.js](https://vuejs.org/ "Vue.js") dependency for a simple application.  Further details are provided below for running the demo.
 
 ## Props ##
 A prop in Vue.js is a custom attribute for passing information from a parent component hosting **table-comp** instance(s) to a **table-comp** as a child component. 
@@ -80,7 +80,7 @@ The demo ---
 -  defines a bunch of css variables
 -  listens for row/cell clicks and displays the values to console.log
 
-As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **table-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
+As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") locally/globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **table-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
 
 
 Here is some example code for using **table-comp** taken from `App.vue`'s template:
